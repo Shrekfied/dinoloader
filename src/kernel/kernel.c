@@ -16,9 +16,18 @@
 
 #include <stdio.h>
 
-#include <kernel/terminal.h>
+#include "terminal.h"
 
 void kernel_main(void) {
-	terminal_init();
-	printf("DinoLoader Kernel Started!!!\n");
+    terminal_init();
+    
+    //                __
+    //               / _)
+    //      _.----._/ /
+    //     /         /
+    //  __/ (  | (  |
+    // /__.-'|_|--|_|
+    // Dinoload Kernel Loaded!
+
+    printf("               __\n                          / _)\n                 _.----._/ /\n                /         /\n             __/ (  | (  |\n            /__.-'|_|--|_|\nDinoloader Kernel Loaded!\n");
 }
