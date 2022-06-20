@@ -1,7 +1,0 @@
-kinclude
-fs.c
-io.c
-kernel.c
-keyboard.c
-terminal.c
-timer.c
